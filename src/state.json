@@ -1,0 +1,73 @@
+{
+  "roles": [
+    {
+      "id": "designer",
+      "title": "Дизайнер"
+    },
+    {
+      "id": "developer",
+      "title": "Разработчик"
+    },
+    {
+      "id": "qa",
+      "title": "QA"
+    },
+    {
+      "id": "devops",
+      "title": "DevOps"
+    },
+    {
+      "id": "copywriter",
+      "title": "CopyWriter"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "dd1"
+      "role": "designer"
+    },
+    {
+      "id": 2,
+      "name": "dd2"
+      "role": "developer"
+    },
+    {
+      "id": 3,
+      "name": "dd3"
+      "role": "qa"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "project1",
+      "description": "project1_desc",
+      "status": "active",
+      "members": [
+        {
+          "roleId": "designer",
+          "employeeId": 1
+        },
+        {
+          "roleId": "developer",
+          "employeeId": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "project2",
+      "description": "project2_desc",
+      "status": "active",
+      "members": []
+    },
+    {
+      "id": 3,
+      "title": "project3",
+      "description": "project3_desc",
+      "status": "active",
+      "members": []
+    }
+  ]
+}
